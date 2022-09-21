@@ -1,0 +1,42 @@
+{
+  "title" : {
+    "show": true,
+    "text": "User clicks by search engine on August 21, 2022 by Website W",
+    "left": "center",
+    "top": "5%",
+    "textStyle": {
+      "fontSize": 18
+    }
+  },
+  "legend": {
+    "bottom": "5%",
+    "left": "center"
+  },
+  "series": [
+    {
+      "type": "pie",
+      "radius": [
+        "40%", "70%"
+      ],
+      "itemStyle": {
+        "borderRadius": 10,
+        "borderColor": "#fff",
+        "borderWidth": 2
+      },
+      "label": {
+        "show": true,
+        "formatter": "{c}",
+        "fontSize": 14,
+        "color": "#000"
+      },
+      "color": ["dodgerblue", "darkblue", "#5784c9", "rgb(196, 199, 204)", "#5f6b7d"],
+      "data": [
+        { "value": 10488, "name": "Google" },
+        { "value": 3735, "name": "Bing" },
+        { "value": 2580, "name": "DuckDuckGo" },
+        { "value": 484, "name": "Baidu" },
+        { "value": 100, "name": "Other" }
+      ]
+    }
+  ]
+}
